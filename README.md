@@ -1,9 +1,7 @@
 ﻿# NEUROCODE EDUCAÇÃO INCLUSIVA
-**Slogan:** "Da inclusão no papel para a inclusão na prática."
+> "Da inclusão no papel para a inclusão na prática."
 
-Plataforma SaaS para acompanhamento pedagógico inclusivo (TEA, TDAH, Dislexia, etc.).
-
-## Como Executar
-1. Configure o arquivo .env (copie de .env.example)
-2. Execute: docker compose up --build -d
-3. Acesse: http://localhost:3000 (Frontend) e http://localhost:8000/docs (Backend)
+## Instalação e Execução (PowerShell)
+1. Instale o PostgreSQL no Windows e crie o banco 'neurocode_db' e o usuário 'neurocode_user' com senha 'NeuroCode@2024!'.
+2. Execute: .\scripts\setup.ps1
+3. Execute: .\scripts\dev.ps1

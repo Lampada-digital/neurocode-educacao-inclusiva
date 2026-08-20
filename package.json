@@ -1,27 +1,27 @@
-{
-  "name": "util-deprecate",
-  "version": "1.0.2",
-  "description": "The Node.js `util.deprecate()` function with browser support",
-  "main": "node.js",
-  "browser": "browser.js",
+﻿{
+  "name": "neurocode-frontend",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/TooTallNate/util-deprecate.git"
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "axios": "^1.6.0",
+    "lucide-react": "^0.300.0"
   },
-  "keywords": [
-    "util",
-    "deprecate",
-    "browserify",
-    "browser",
-    "node"
-  ],
-  "author": "Nathan Rajlich <nathan@tootallnate.net> (http://n8.io/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/TooTallNate/util-deprecate/issues"
-  },
-  "homepage": "https://github.com/TooTallNate/util-deprecate"
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
 }
